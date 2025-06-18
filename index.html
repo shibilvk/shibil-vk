@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shibil VK Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #222;
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      background-color: #444;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #444;
+    }
+    .projects, .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .project, .skill {
+      background: white;
+      padding: 20px;
+      flex: 1 1 45%;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+    @media (max-width: 600px) {
+      .project, .skill {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Shibil VK</h1>
+  <p>Freelance Editor | Video Creator | Web Learner</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#skills">Skills</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>Hello! I'm Shibil VK, a passionate freelance editor and creative enthusiast. I love working with video, improving my editing craft, and exploring new skills — like building this very site!</p>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects">
+    <div class="project">
+      <h3>Project 1</h3>
+      <p>A sample video editing portfolio project showcasing cinematic cuts and color grading.</p>
+    </div>
+    <div class="project">
+      <h3>Project 2</h3>
+      <p>Short montage made using CapCut and After Effects transitions.</p>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <div class="skill">
+      <h3>Video Editing</h3>
+      <p>CapCut, VN Editor, Adobe Premiere Pro</p>
+    </div>
+    <div class="skill">
+      <h3>Content Strategy</h3>
+      <p>Planning, scripting, and storytelling</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: shibilvk@example.com</p>
+  <p>Instagram: @shibilvk</p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Shibil VK. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
